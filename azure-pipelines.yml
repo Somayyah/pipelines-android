@@ -5,6 +5,7 @@
 
 pool:
   vmImage: 'macOS-latest'
+  name: local
 
 steps:
 - task: Gradle@2
